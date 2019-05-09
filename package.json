@@ -19,13 +19,5 @@
     "packages": [
       "packages/*"
     ]
-  },
-  "homepage": "https://github.com/robertoachar/@monorepo/koa-react#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/robertoachar/@monorepo/koa-react.git"
-  },
-  "bugs": {
-    "url": "https://github.com/robertoachar/@monorepo/koa-react/issues"
   }
 }
