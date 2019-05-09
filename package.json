@@ -1,0 +1,31 @@
+{
+  "name": "@monorepo/koa-react",
+  "version": "1.0.0",
+  "description": "Monorepo for Koa and React.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "yarn lint:server & yarn lint:web",
+    "lint:server": "yarn workspace @monorepo/server lint",
+    "lint:web": "yarn workspace @monorepo/web lint",
+    "start": "yarn start:server & yarn start:web",
+    "start:server": "yarn workspace @monorepo/server start",
+    "start:web": "yarn workspace @monorepo/web start"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "homepage": "https://github.com/robertoachar/@monorepo/koa-react#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/@monorepo/koa-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/@monorepo/koa-react/issues"
+  }
+}
