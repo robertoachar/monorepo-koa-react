@@ -1,4 +1,4 @@
-# @monorepo/koa-react
+# Monorepo Koa and React
 
 [![License][license-badge]][license-url]
 
@@ -9,21 +9,25 @@
 - Clone the repo
 
 ```bash
-$ git clone https://github.com/robertoachar/@monorepo/koa-react.git
+$ git clone https://github.com/robertoachar/monorepo-koa-react.git
 ```
 
 - Install dependencies
 
 ```bash
-$ npm install
+$ yarn install
 ```
 
 - Run scripts
 
-| Action                 | Usage          |
-| ---------------------- | -------------- |
-| Start development mode | `npm start`    |
-| Lint code              | `npm run lint` |
+| Action                 | Usage               |
+| ---------------------- | ------------------- |
+| Start development mode | `yarn start`        |
+| Lint code              | `yarn lint`         |
+| Start server           | `yarn start:server` |
+| Lint server            | `yarn lint:server`  |
+| Start web              | `yarn start:web`    |
+| Lint web               | `yarn lint:web`     |
 
 # Author
 
@@ -31,7 +35,7 @@ $ npm install
 
 # License
 
-[MIT](https://github.com/robertoachar/@monorepo/koa-react/blob/master/LICENSE)
+[MIT](https://github.com/robertoachar/monorepo-koa-react/blob/master/LICENSE)
 
-[license-badge]: https://img.shields.io/github/license/robertoachar/@monorepo/koa-react.svg
+[license-badge]: https://img.shields.io/github/license/robertoachar/monorepo-koa-react.svg
 [license-url]: https://opensource.org/licenses/MIT
